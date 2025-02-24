@@ -53,3 +53,4 @@ else:
         filename = title.replace(" ", "_") + ".png"
         plt.savefig(filename, dpi=900, bbox_inches='tight')
         plt.show()
+        
